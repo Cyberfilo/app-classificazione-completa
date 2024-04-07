@@ -13,6 +13,7 @@
 		BC86AB482BC2D77B002EABF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB462BC2D77B002EABF5 /* LaunchScreen.storyboard */; };
 		BC86AB502BC2DA72002EABF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB4F2BC2DA71002EABF5 /* Main.storyboard */; };
 		BC86AB522BC2DA78002EABF5 /* MyImageClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BC86AB512BC2DA78002EABF5 /* MyImageClassifier.mlpackage */; };
+		BC86AB582BC30333002EABF5 /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB572BC30333002EABF5 /* assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +25,7 @@
 		BC86AB492BC2D77B002EABF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC86AB4F2BC2DA71002EABF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BC86AB512BC2DA78002EABF5 /* MyImageClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MyImageClassifier.mlpackage; sourceTree = "<group>"; };
-		BC86AB552BC300C4002EABF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC86AB572BC30333002EABF5 /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = ../assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		BC86AB3A2BC2D778002EABF5 /* Classificazione */ = {
 			isa = PBXGroup;
 			children = (
+				BC86AB572BC30333002EABF5 /* assets.xcassets */,
 				BC86AB512BC2DA78002EABF5 /* MyImageClassifier.mlpackage */,
 				BC86AB3B2BC2D778002EABF5 /* AppDelegate.swift */,
 				BC86AB3D2BC2D778002EABF5 /* SceneDelegate.swift */,
@@ -64,7 +66,6 @@
 				BC86AB4F2BC2DA71002EABF5 /* Main.storyboard */,
 				BC86AB462BC2D77B002EABF5 /* LaunchScreen.storyboard */,
 				BC86AB492BC2D77B002EABF5 /* Info.plist */,
-				BC86AB552BC300C4002EABF5 /* Assets.xcassets */,
 			);
 			path = Classificazione;
 			sourceTree = "<group>";
@@ -129,6 +130,7 @@
 			files = (
 				BC86AB502BC2DA72002EABF5 /* Main.storyboard in Resources */,
 				BC86AB482BC2D77B002EABF5 /* LaunchScreen.storyboard in Resources */,
+				BC86AB582BC30333002EABF5 /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
