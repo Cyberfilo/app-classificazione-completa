@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21219" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21200"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Classificazione" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojg-W1-aOG">
+                                <rect key="frame" x="96" y="666" width="185" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="kP2-UN-k39"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <imageReference key="image" image="camera" catalog="system" symbolScale="large"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="pickImage:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="SdZ-ZT-B4U"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sRr-WD-Ljh">
+                                <rect key="frame" x="62" y="543" width="253" height="89"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CD3-ES-BSD">
+                                <rect key="frame" x="6" y="89" width="378" height="446"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ojg-W1-aOG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="2y9-Yj-Ll2"/>
+                            <constraint firstItem="CD3-ES-BSD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="6" id="Goy-IR-Ylt"/>
+                            <constraint firstItem="ojg-W1-aOG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HtZ-eP-0MN"/>
+                            <constraint firstItem="ojg-W1-aOG" firstAttribute="centerX" secondItem="CD3-ES-BSD" secondAttribute="centerX" id="KW4-YO-7DL"/>
+                            <constraint firstItem="ojg-W1-aOG" firstAttribute="top" secondItem="CD3-ES-BSD" secondAttribute="bottom" constant="64" id="Ptx-ah-K2E"/>
+                            <constraint firstItem="sRr-WD-Ljh" firstAttribute="top" secondItem="ojg-W1-aOG" secondAttribute="bottom" constant="32" id="gMH-OJ-gyX"/>
+                            <constraint firstAttribute="bottom" secondItem="ojg-W1-aOG" secondAttribute="bottom" constant="204" id="kky-Cx-cj4"/>
+                            <constraint firstItem="ojg-W1-aOG" firstAttribute="centerX" secondItem="sRr-WD-Ljh" secondAttribute="centerX" id="q7k-N9-uaT"/>
+                            <constraint firstItem="CD3-ES-BSD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="u90-nv-Vgq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="CD3-ES-BSD" id="jPv-5E-Dp2"/>
+                        <outlet property="resultLabel" destination="sRr-WD-Ljh" id="hyK-4p-Q7z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.538461538461537" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="camera" catalog="system" width="128" height="93"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
