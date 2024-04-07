@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Used to upload photos</string>
+	<string>Used to upload photoss</string>
 	<key>CFBundleIconName</key>
 	<string>AppIcon</string>
 	<key>UIApplicationSceneManifest</key>
