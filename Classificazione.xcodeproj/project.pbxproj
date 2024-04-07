@@ -10,10 +10,10 @@
 		BC86AB3C2BC2D778002EABF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86AB3B2BC2D778002EABF5 /* AppDelegate.swift */; };
 		BC86AB3E2BC2D778002EABF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86AB3D2BC2D778002EABF5 /* SceneDelegate.swift */; };
 		BC86AB402BC2D778002EABF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86AB3F2BC2D778002EABF5 /* ViewController.swift */; };
-		BC86AB452BC2D77B002EABF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB442BC2D77B002EABF5 /* Assets.xcassets */; };
 		BC86AB482BC2D77B002EABF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB462BC2D77B002EABF5 /* LaunchScreen.storyboard */; };
 		BC86AB502BC2DA72002EABF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB4F2BC2DA71002EABF5 /* Main.storyboard */; };
 		BC86AB522BC2DA78002EABF5 /* MyImageClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = BC86AB512BC2DA78002EABF5 /* MyImageClassifier.mlpackage */; };
+		BC86AB542BC2DCF4002EABF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC86AB532BC2DCF4002EABF5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		BC86AB3B2BC2D778002EABF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC86AB3D2BC2D778002EABF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BC86AB3F2BC2D778002EABF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC86AB442BC2D77B002EABF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC86AB472BC2D77B002EABF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC86AB492BC2D77B002EABF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC86AB4F2BC2DA71002EABF5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BC86AB512BC2DA78002EABF5 /* MyImageClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = MyImageClassifier.mlpackage; sourceTree = "<group>"; };
+		BC86AB532BC2DCF4002EABF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Desktop/app classificazione 7.2/app classificazione 7.2/Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 				BC86AB3D2BC2D778002EABF5 /* SceneDelegate.swift */,
 				BC86AB3F2BC2D778002EABF5 /* ViewController.swift */,
 				BC86AB4F2BC2DA71002EABF5 /* Main.storyboard */,
-				BC86AB442BC2D77B002EABF5 /* Assets.xcassets */,
+				BC86AB532BC2DCF4002EABF5 /* Assets.xcassets */,
 				BC86AB462BC2D77B002EABF5 /* LaunchScreen.storyboard */,
 				BC86AB492BC2D77B002EABF5 /* Info.plist */,
 			);
@@ -130,7 +130,7 @@
 			files = (
 				BC86AB502BC2DA72002EABF5 /* Main.storyboard in Resources */,
 				BC86AB482BC2D77B002EABF5 /* LaunchScreen.storyboard in Resources */,
-				BC86AB452BC2D77B002EABF5 /* Assets.xcassets in Resources */,
+				BC86AB542BC2DCF4002EABF5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
